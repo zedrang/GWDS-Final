@@ -1,37 +1,43 @@
 body {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: #102444;
     color: white;
 }
 
-.section-one {
-    background-color: #2A398C;    
-}
-
-h1 {
-    font-size: 2em;
-    color: #333;
-}
-
-p {
-    font-size: 1.2em;
+header {
+    padding: 1px 0px 1px 0px;
+    background-color: #2A398C;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: medium;
 }
 
 li {
-    display: inline-block;
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 
 a {
     text-decoration: none;
-    color: #333;
     transition: color 0.2s;
+    color: white;
 }
 
 a:hover {
