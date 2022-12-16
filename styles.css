@@ -5,6 +5,10 @@ body {
     color: white;
 }
 
+.section-one {
+    background-color: #2A398C;    
+}
+
 h1 {
     font-size: 2em;
     color: #333;
