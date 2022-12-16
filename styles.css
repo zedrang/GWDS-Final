@@ -13,7 +13,7 @@ header {
 ul {
     list-style-type: none;
     padding: 2px;
-    font-size: 12pt;
+    font-size: medium;
 }
 
 .navbar {
@@ -24,11 +24,11 @@ ul {
 }
 
 h1 {
-    font-size: 24pt;
+    font-size: xx-large;
 }
 
 p {
-    font-size: 12pt;
+    font-size: medium;
 }
 
 li {
