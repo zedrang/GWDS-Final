@@ -41,6 +41,11 @@ a {
     color: white;
 }
 
+footer {
+    padding: 1px 0px 1px 0px;
+    background-color: #141d42;
+}
+
 a:hover {
     color: #00b0ff;
 }
@@ -51,4 +56,29 @@ a:hover {
 
 .reflection {
     margin: 50px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.group {
+    width: 400px;
+}
+
+.item {
+    width: 400px;
+    height: 400px;
+    padding: 4px;
+}
+
+.caption {
+    text-align: center;
+    font-size: small;
+}
+
+.footer {
+    font-size: x-small;
 }
