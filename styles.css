@@ -62,6 +62,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 1999px;
+    margin: auto;
 }
 
 .group {
