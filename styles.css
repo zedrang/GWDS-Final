@@ -87,8 +87,19 @@ a:hover {
 
 .cwtext {
     font-size: small;
-    text-align: left;
-    margin: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+}
+
+.cwimage {
+    width: 450px;
+    height: 800px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
 }
 
 .cwblock {
@@ -98,15 +109,26 @@ a:hover {
     flex-direction: row-reverse;
 }
 
+.cwtext2 {
+    font-size: small;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.cwimage2 {
+    width: 450px;
+    height: 800px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+}
+
 .cwblock2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-.cwimage {
-    width: 450px;
-    height: 800px;
-    margin: auto;
 }
