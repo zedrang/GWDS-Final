@@ -84,3 +84,29 @@ a:hover {
 .footer {
     font-size: x-small;
 }
+
+.cwtext {
+    font-size: small;
+    text-align: left;
+    margin: auto;
+}
+
+.cwblock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.cwblock2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cwimage {
+    width: 450px;
+    height: 800px;
+    margin: auto;
+}
