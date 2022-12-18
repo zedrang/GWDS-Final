@@ -136,3 +136,39 @@ a:hover {
 .repos {
     text-decoration: underline;
 }
+
+.carptext {
+    font-size: small;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.carpimage {
+    width: 600px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.carpimage2 {
+    width: 400px;
+}
+
+.carpblock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.carpblock2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+}
